@@ -1,4 +1,7 @@
+![](https://i.imgur.com/eumqBOu.png)
+
 # Download Code Llama Models with Python
+
 This Python script provides a quality-of-life enhancement for downloading [Code Llama](https://github.com/facebookresearch/codellama) models. Rather than relying on manual methods or the typical wget command, users can utilize this script to streamline the download process.
 
 
