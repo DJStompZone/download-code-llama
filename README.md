@@ -1,5 +1,5 @@
 # Download Code Llama Models with Python
-This Python script provides a quality-of-life enhancement for downloading the Code Llama models. Rather than relying on manual methods or the typical wget command, users can utilize this script to streamline the download process.
+This Python script provides a quality-of-life enhancement for downloading [Code Llama](https://github.com/facebookresearch/codellama) models. Rather than relying on manual methods or the typical wget command, users can utilize this script to streamline the download process.
 
 
 ## Features
@@ -13,7 +13,9 @@ This Python script provides a quality-of-life enhancement for downloading the Co
 Python 3.x
 Required Python packages: httpx, tqdm
 You can install these via pip:
-```pip install httpx tqdm```
+```bash
+pip install httpx tqdm
+```
 
 
 ## Usage
@@ -30,9 +32,9 @@ You can install these via pip:
 
 - Follow the on-screen prompts. You'll be asked to:
 
-  - Provide the download URL.
+  - Provide the download URL. (You can get one [here](https://ai.meta.com/resources/models-and-libraries/llama-downloads/))
   - Select specific models or download all available models.
   The script will download the selected models to the current directory (or the specified directory) and verify them using the provided checksums.
 
 ### Notes
-If you encounter any server-side restrictions, remember to respect any terms of service or usage policies associated with the resources you're accessing. This script aims to simplify the download process but should not be used in any context that violates the terms set by the resource owner.
+If you encounter any server-side restrictions, remember to respect any terms of service or usage policies associated with the resources you're accessing. This script aims to simplify the download process but should not be used in any context that violates the [Acceptable Use Policy](https://ai.meta.com/llama/use-policy/).
